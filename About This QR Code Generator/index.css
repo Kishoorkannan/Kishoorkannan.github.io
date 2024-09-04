@@ -23,6 +23,8 @@
   flex-shrink: 0;
   z-index: 1;
   transition: var(--transition-1);
+  [data-reveal="left"] { transform: translateX(-30px); }
+
 }
 .about-this-qr-code-generator-wrapper {
   align-self: stretch;
