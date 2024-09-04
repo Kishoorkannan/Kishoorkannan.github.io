@@ -329,7 +329,7 @@ body.nav-active { overflow: hidden; }
 
 .navbar-link {
   font-weight: var(--fw-700);
-  padding-block: 6px;
+  padding-block: 6px;  
 }
 
 .contact-link { transition: var(--transition-1); }
