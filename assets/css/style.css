@@ -520,6 +520,7 @@ body.nav-active { overflow: hidden; }
   border-radius: var(--radius-8);
   display: grid;
   gap: 40px;
+  border: 1px solid #ccc;
 }
 
 .contact .section-title { margin-block-start: 20px; }
@@ -532,6 +533,7 @@ body.nav-active { overflow: hidden; }
   border-radius: var(--radius-6);
   outline: none;
   margin-block-end: 20px;
+  border: 1px solid #ccc;
 }
 
 .input-field::placeholder { color: var(--manatee); }
@@ -541,6 +543,7 @@ textarea.input-field {
   height: 120px;
   max-height: 240px;
   resize: vertical;
+  border: 1px solid #ccc;
 }
 
 
@@ -596,6 +599,7 @@ textarea.input-field {
    */
 
   .contact-card { padding: 68px; }
+  
 
 }
 
@@ -652,6 +656,7 @@ textarea.input-field {
     display: flex;
     align-items: center;
     gap: 20px;
+    
   }
 
 
@@ -822,6 +827,9 @@ textarea.input-field {
     grid-template-columns: 0.8fr 1fr;
     align-items: center;
     gap: 90px;
+    border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  
   }
 
 }

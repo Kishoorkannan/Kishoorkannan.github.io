@@ -504,18 +504,22 @@
 
             </div>
 
-            <form action="" class="contact-form" data-reveal="right">
-
-              <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Name *" required class="input-field">
-
-                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+            <form action="https://api.web3forms.com/submit" class="contact-form" data-reveal="right" method="POST">
+              
+              <div class="fields">
+                <input type="hidden" name="access_key" value="116c6f8c-b713-44ec-a0ea-f0cefa45f4df"
+                          <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Name *" required class="input-field">
+            
+                            <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+                            
+                            <input type="phonenumber" name="phonenumber" placeholder="Phonenumber *" required class="input-field">
+                          </div>
+            
+                          <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+            
+                          <button type="submit" class="btn btn-secondary">Send message</button>
               </div>
-
-              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
-
-              <button type="submit" class="btn btn-secondary">Send message</button>
-
             </form>
 
           </div>
